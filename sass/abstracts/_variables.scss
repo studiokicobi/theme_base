@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// Application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Fonts
+// ------------------------
+
+// Regular font family
+$text-font-stack: "Helvetica Neue", "Helvetica", "Arial", sans-serif !default;
+
+// Code (monospace) font family
+$code-font-stack: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco",
+  monospace !default;
+
+// Colors
+// ------------------------
+
+// Copy text
+$text-color: rgb(34, 34, 34) !default;
+
+// Main brand
+$brand-color: orangered !default;
+
+// Light grey
+$light-grey: rgb(237, 237, 237) !default;
+
+// Medium grey
+$mid-grey: rgb(153, 153, 153) !default;
+
+// Dark grey
+$dark-grey: rgb(68, 68, 68) !default;
+
+// Dimensions
+// ------------------------
+
+// Container's maximum width
+$max-width: 1180px !default;
+
+// Line-height
+$ratio: 1.4;
+
+// Breakpoints map
+// @prop {String} keys - Keys are identifiers mapped to a given length
+// @prop {Map} values - Values are actual breakpoints expressed in pixels
+// $breakpoints: (
+//   "small": 320px,
+//   "medium": 768px,
+//   "large": 1024px,
+// ) !default;
+
+// Base URL
+// ------------------------
+
+// Relative or absolute URL where all assets are served from
+// @type String
+// @example scss - When using a CDN
+//   $base-url: 'http://cdn.example.com/assets/';
+// $base-url: "/assets/" !default;
